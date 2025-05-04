@@ -142,6 +142,41 @@ SOURCE      Brassica oleracea (wild cabbage)
                      VVEVSAFVNACEGDAVTQLTNEKIPYFNAPIYLQNKTQIGKVDEIFGAINESYFSVKM
                      MEGVVATSYSSGDKFFIDPAKLLPVSRFLSQPKEQKQSGRGGGRGGGRGGFRGGRGGG
                      GFRGRGAPRGGFRGGGRGSGFRGRGRS"
+...
+ORIGIN      
+        1 acctaaaccc taaaccctaa accctaaacc ctaaaaccct aaaccctaaa ccctaaaccc
+       61 taaaccctaa accctaaacc ctaaaaccct aaaaccctaa aaaccctaaa accctaaaac
+      121 cctaaaccct aaaaccctaa accctaaacc ctaaacccta aaccctaaac cctaaaccct
+      181 aaaccctaaa ccctaaaccc taaaccctaa accctaaaac cctaaaaccc taaaacccta
+      241 aaaccctaaa accctaaaac cctaaaaccc taaaacccta aaaccctaaa accctaaaac
+      301 cctaaaaccc taaaacccta aaaccctaaa accctaaaac cctaaaaacc ctaaaaaccc
+      361 taaaacccta aaccctaaaa ccctaaaacc ctaaaaaccc taaaacccta aaaccctaaa
+      421 accctaaaaa ccctaaaacc ctaaaaaacc ctaaaaccct aaaaacccta aaaccctaaa
+      481 aaccctaaaa ccctaaaacc ctaaaaccct aaaaccctaa aaccctaaaa ccctaaaacc
+      541 ctaaacccta aaaccctaaa accctaaaac cctaaaaccc taaaacccta aaaccctaaa
+      601 accctaaacc ctaaaaccct aaaaccctaa aaccctaaaa ccctaaaacc ctaaaaccct
+      661 aaaaccctaa aaccctaaaa ccctaaaacc ctaaaaccct aaaaccctaa accctaaacc
+      721 ctaaaaccct aaaccctaaa aaccctaaaa ccctaaaacc ctaaaaccct aaaaccctaa
+      781 aaaccctaaa accctaaaac cctaaaaccc taaaacccta aaaccctaaa accctaaaac
+      841 cctaaaccct aaaaccctaa aaccctaaaa ccctaaaacc ctaaacccta aaaccctaaa
+      901 ccctaaaccc taaaccctaa aaccctaaaa ccctaaaacc ctaaaaccct aaaccctaaa
+      961 accctaaaac cctaaaaccc taaaccctaa accctaaaac cctaaaaccc taaaacccta
+     1021 aaaccctaaa accctaaaac cctaaaaccc taaaccctaa accctaaacc ctaaacccta
+     1081 aaccctaaac cctaaaaccc taaaacccta aaccctaaac cctaaaccct aaaccctaaa
+     1141 ccctaaaccc taaaacccta aaccctaaac cctaaaaccc taaaaaccct aaaaacccta
+     1201 aaaccctaaa accctaaaac cctaaaccct aaaccctaaa accctaaaac cctaaaaccc
+     1261 taaaacccta aaaccctaaa ccctaaaacc ctaaaaccct aaaccctaaa ccctaaaccc
+     1321 taaaccctaa accctaaacc ctaaaaccct aaaccctaaa accctaaaac cctaaaccct
+     1381 aaaccctaaa ccctaaaccc taaaacccta aacccttaac cctaaaccct aaaaccctaa
+     1441 aaccctaaaa ccctaaaccc taaaacccta aaccctaaac cctaaaaccc taaaacccta
+     1501 aaccctaaac cctaaaaccc taaaccctaa accctaaacc ctaaacccta aaccctaaac
+     1561 cctaaaccct aaaccctaaa ccctaaaccc taaaacccta aaaccctaac cctaaaccct
+     1621 aaaccctaat aaccctaaac cctaaaaccc taaaccctaa accctaaacc ctaaacccta
+     1681 aaccctaaaa ccctaaaccc ctaaacccta aaccctaaaa accctaaacc ctaaaacgtg
+     1741 aggaccctaa aaccctaaac cctaaaaacc cttaacccta aaccctaaac aacaaaaccc
+     1801 taaccctaac cctaacccta aaacgtgatg acaaaaaacc ctaaactctg aaacgtgatt
+     1861 ttaaaccctt aaaaacctta accctaaccc ttaactccat aaccctaaaa ccgtagaacg
+...
 1. Импортируем модуль SeqIO из библиотеки Biopython для работы с файлами GenBank.
 2.  Создание переменной  file_path, которая содержит путь к файлу.
 3.  Цикл for record in SeqIO.parse(file_path, "genbank") перебирает все записи в файле.
